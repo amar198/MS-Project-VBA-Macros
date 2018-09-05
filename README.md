@@ -1,6 +1,8 @@
 # MS-Project-VBA-Macros
 Contains macros written for MS Project tasks.
-Have written macros more PERT where optimistic, most likely, and pessimistic durations can be entered in predefined fields Duration1, 2 and 3 respectively. The weights for these durations can also be set in Number1, 2 and 3 fields respectively, which are predefined in MS Project. This weights will define how the Estimate (E) is calculated and placed in the Duration field (predefined in MS Project). E.g. if you place weight as Optimistic - 1, Most likely - 1, and Pessimistic - 4; then (E) will be calculated as 
+
+File Name: modPERTFunctionality.bas
+In this file I've written macros for PERT where optimistic, most likely, and pessimistic durations can be entered in predefined fields Duration1, 2 and 3 respectively. The weights for these durations can also be set in Number1, 2 and 3 fields respectively. These weights will define how the Estimate (E) is calculated and placed in the Duration field. E.g. if you place weight as Optimistic - 1, Most likely - 1, and Pessimistic - 4; then (E) will be calculated as 
 E = [(Optimistic * 1) + (Most likely * 1) + (Pessimistic * 4)] / 6
 This macro will also calculate Standard Deviation in the Duration4 field, to calculate Sigma values to understand the over all project duration.
 
