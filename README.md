@@ -13,3 +13,9 @@ Field List and its description
   5. Number1 - Optimistic Weight
   6. Number2 - Most likely Weight
   7. Number3 - Pessimistic Weight
+
+Following procedures are written in this code.
+  1. PERT() - Calculates the Estimate (E) for all the field at once.
+  2. ShowPERTFields() - Shows all the above fields, and changes the caption as well.
+  3. HidePERTFields() - Hides all the above fields.
+  4. GetDurationAsPerSigmaValues() - Calculates the entire project duration and shows the duration as per all the Sigma level (1 to 6).
