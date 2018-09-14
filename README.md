@@ -21,6 +21,12 @@ Following procedures are written in this code.
   2. ShowPERTFields() - Shows all the above fields, and changes the caption as well.
   3. HidePERTFields() - Hides all the above fields.
   4. GetDurationAsPerSigmaValues() - Calculates the entire project duration and shows the duration as per all the Sigma level (1 to 6).
+  
+# File Name: Steps to add VBA macro.docx
+This file contains the steps to add PERT related macros in your MS Project application.
+
+# File Name: Steps to add Timeline macro.docx
+This file contains the steps to add Timeline macro in your MS Project application.
 
 # File name: modHolidayAndResourceCalendar.bas, ProjectManagement.accdb, and Leaves Teamplate.xlsx
 The VBA module file modHolidayAndResourceCalendar.bas contains 2 procedures.
